@@ -12,7 +12,8 @@ namespace WS.Application
         {
             Console.WriteLine("Enter mono wave file location: ");
             monoWaveFileLocation = Console.ReadLine();
-
+            WaveFileStructure(monoWaveFileLocation);
+            Console.ReadKey();
         }
 
         public static void WaveFileStructure(string filePath)
