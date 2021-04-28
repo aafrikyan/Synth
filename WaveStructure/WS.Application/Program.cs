@@ -131,7 +131,6 @@ namespace WS.Application
             {
                 Console.WriteLine("File not exists.");
             }
-            Console.ReadKey();
         }
     }
 }
